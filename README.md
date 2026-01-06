@@ -1,77 +1,31 @@
 # Unfiltered
 
-Unfiltered is a web-based creator workflow tool designed to help users prepare, manage, and publish short-form video content to TikTok using official platform integrations.
+Unfiltered is a lightweight web-based creator tool designed to help users prepare and publish short-form videos to TikTok using TikTok OAuth and TikTok’s Content Posting APIs.
 
-This project focuses on providing a controlled, user-authorized publishing experience that complies with TikTok’s API requirements and platform policies.
+## What this repo is for
+This repository hosts:
+- A simple public landing page for the Unfiltered app
+- A Terms of Service page
+- A Privacy Policy page
+- Verification signature files (when required by TikTok for URL verification)
 
----
+## Live site (GitHub Pages)
+Once GitHub Pages is enabled for this repo, the site will be available at:
 
-## What Unfiltered Does
+https://bunnysatth-cell.github.io/unfiltered/
 
-Unfiltered helps creators streamline the process of uploading and publishing videos to their own TikTok accounts.
+## Pages
+- Home: `/`
+- Terms: `/terms.html`
+- Privacy: `/privacy.html`
 
-Key capabilities include:
+## TikTok URL verification
+If TikTok requires URL prefix verification, it will provide a `.txt` file.  
+Upload that file to the repository root and confirm it is reachable at:
 
-- Connecting a TikTok account via official OAuth authorization
-- Uploading video content as drafts or publishing content to TikTok
-- Managing captions and metadata where supported
-- Providing a simple web-based interface for content publishing workflows
+https://bunnysatth-cell.github.io/unfiltered/<filename>.txt
 
-All actions are user-initiated and require explicit authorization.
-
----
-
-## TikTok Integration
-
-Unfiltered integrates with TikTok using TikTok for Developers APIs, including:
-
-- Login Kit (OAuth authorization)
-- Content Posting API (video upload and publish)
-
-The application only requests the permissions necessary to perform authorized actions.
-TikTok credentials and passwords are never collected or stored by this project.
-
-Users may revoke access at any time through their TikTok account settings.
-
----
-
-## Data and Privacy
-
-Unfiltered is designed with minimal data retention in mind.
-
-- User content is processed only to perform requested actions
-- Authorization tokens are handled securely
-- No personal data is sold or used for advertising purposes
-
-For more information, see:
-- [Privacy Policy](./privacy.html)
-- [Terms of Service](./terms.html)
-
----
-
-## Third-Party Services
-
-This project may rely on third-party infrastructure or services to support functionality such as:
-
-- Workflow automation
-- Video rendering
-- Temporary file storage
-- Hosting and deployment
-
-All third-party services are used solely to support the core functionality of the application.
-
----
-
-## Disclaimer
-
-Unfiltered is an independent tool and is not affiliated with, endorsed by, or sponsored by TikTok.
-
-Content performance, reach, engagement, and monetization outcomes are determined by TikTok and user behavior and are outside the control of this project.
-
----
+Then click “Verify” in the TikTok Developer Portal.
 
 ## Contact
-
-For questions or inquiries related to this project, please contact:
-
-**Email:** unfiltered.creator.tool@gmail.com
+For questions related to this app: your-email@example.com
